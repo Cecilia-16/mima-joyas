@@ -1,5 +1,4 @@
-const productos = [
-  {
+ {
     categoria: "pendientes",
     id:"wakame",
     nombre: "Pendientes Wakame",

@@ -16,21 +16,25 @@ if (!producto) {
 
             <div class="detalle-imagen">
 
-                <img src="${producto.imagen}" alt="${producto.nombre}">
+              <img src="${producto.imagen}" alt="${producto.nombre}">
+
+              <button class="boton-atras" onclick="history.back()" title="Volver">
+                 ←
+              </button>
 
             </div>
 
             <div class="detalle-info">
 
-                <h1>${producto.nombre}</h1>
+             <h1>${producto.nombre}</h1>
 
-                <p>${producto.descripcion}</p>
+             <p>${producto.descripcion}</p>
 
-                <h2>${producto.precio}</h2>
+             <h2>${producto.precio}</h2>
 
-               <button class="comprar" id="agregar-carrito">
-                  🛒 Añadir al carrito
-               </button>
+             <button class="comprar" id="agregar-carrito">
+               🛒 Añadir al carrito
+             </button>
 
             </div>
 

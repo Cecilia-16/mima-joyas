@@ -256,3 +256,40 @@ p{
 .comprar:hover{
     opacity:0.9;
 }
+.detalle-imagen{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+.boton-atras{
+    margin-top:20px;
+
+    width:55px;
+    height:55px;
+
+    border:none;
+    border-radius:50%;
+
+    background:white;
+    color:black;
+
+    font-size:28px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.25);
+
+    transition:.2s;
+}
+
+.boton-atras:hover{
+    background:black;
+    color:white;
+    transform:scale(1.1);
+}
