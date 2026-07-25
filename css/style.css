@@ -293,6 +293,9 @@ p{
     color:white;
     transform:scale(1.1);
 }
+.menu-toggle{
+    display:none;
+}
 /* =========================================
    DISEÑO RESPONSIVE (MÓVILES)
 ========================================= */
@@ -323,4 +326,37 @@ nav a {
 .producto{
     width:100%;
     max-width:380px;
+}
+.menu-toggle{
+    display:block;
+    position:fixed;
+    top:15px;
+    right:15px;
+    z-index:1001;
+
+    background:white;
+    border:none;
+    font-size:30px;
+    cursor:pointer;
+    padding:8px 12px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+nav{
+    display:none;
+    flex-direction:column;
+    position:fixed;
+    top:0;
+    right:0;
+    width:260px;
+    height:100vh;
+    background:white;
+    padding-top:70px;
+    box-shadow:-4px 0 10px rgba(0,0,0,0.2);
+    z-index:1000;
+}
+
+nav.activo{
+    display:flex;
 }
