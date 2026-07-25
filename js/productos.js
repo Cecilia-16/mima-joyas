@@ -78,7 +78,7 @@ const productos = [
     nombre: "Buganvilla",
     descripcion: "Aros dorados con gotas en cristal morado amatista. Material: acero inoxidable, aros de 12 mm de diámetro y cristal morado.",
     precio: "9€",
-    imagen: "imagenes/pendientes/buganvilla.jpg"
+    imagen: "imagenes/pendientes/buganvilla.JPG"
 },
 {
     categoria: "pendientes",
@@ -150,7 +150,7 @@ const productos = [
     nombre: "De Loto",
     descripcion: "De aro con colgante inspirado en una flor de loto. Material: aro de 12mm de diámetro de acero inoxidable.",
     precio: "8€",
-    imagen: "imagenes/pendientes/de-loto.jpg"
+    imagen: "imagenes/pendientes/de-loto.JPG"
 },
 {
     categoria: "pendientes",
@@ -166,7 +166,7 @@ const productos = [
     nombre: "Espejo",
     descripcion: "Agotado",
     precio: "7€",
-    imagen: "imagenes/pendientes/espejo.jpg"
+    imagen: "imagenes/pendientes/espejo.JPG"
 },
 {
     categoria: "pendientes",
@@ -174,7 +174,7 @@ const productos = [
     nombre: "Esperanza",
     descripcion: "Aros dorados con gotas en cristal verde esperanza. Material: acero inoxidable, aros de 12 mm de diámetro y cristal verde.",
     precio: "9€",
-    imagen: "imagenes/pendientes/esperanza.jpg"
+    imagen: "imagenes/pendientes/esperanza.JPG"
 },
 {
     categoria: "pendientes",
@@ -182,7 +182,7 @@ const productos = [
     nombre: "Estrellas",
     descripcion: "Materiales: Acero inoxidable, aro de 10mm de diámetro. Disponible en varios colores.",
     precio: "7€",
-    imagen: "imagenes/pendientes/estrellas.jpg"
+    imagen: "imagenes/pendientes/estrellas.JPG"
 },
 {
     categoria: "pendientes",
@@ -262,7 +262,7 @@ const productos = [
     nombre: "Infinite",
     descripcion: "Pendientes de acero inoxidable con símbolo del infinito y detalles esmaltados. Disponibles en varios colores.",
     precio: "11€",
-    imagen: "imagenes/pendientes/infinite.jpg"
+    imagen: "imagenes/pendientes/infinite.JPG"
 },
 {
     categoria: "pendientes",
@@ -350,7 +350,7 @@ const productos = [
     nombre: "Media Luna",
     descripcion: "Aros con cristales insertados y original colgante de media luna.",
     precio: "10€",
-    imagen: "imagenes/pendientes/media-luna.jpg"
+    imagen: "imagenes/pendientes/media-luna.JPG"
 },
 {
     categoria: "pendientes",
@@ -414,7 +414,7 @@ const productos = [
     nombre: "Primavera",
     descripcion: "Aros con brillantes flores de cristal.",
     precio: "8€",
-    imagen: "imagenes/pendientes/primavera.jpg"
+    imagen: "imagenes/pendientes/primavera.JPG"
 },
 {
     categoria: "pendientes",
@@ -438,7 +438,7 @@ const productos = [
     nombre: "Recuerdo",
     descripcion: "Pendientes redondos con colgante estampado en flores.",
     precio: "10€",
-    imagen: "imagenes/pendientes/recuerdo.jpg"
+    imagen: "imagenes/pendientes/recuerdo.JPG"
 },
 {
     categoria: "pendientes",
@@ -462,7 +462,7 @@ const productos = [
     nombre: "Ruiseñor",
     descripcion: "Alegres pendientes con colgante de pajaritos.",
     precio: "8€",
-    imagen: "imagenes/pendientes/ruiseñor.jpg"
+    imagen: "imagenes/pendientes/ruiseñor.JPG"
 },
 {
     categoria: "pendientes",
@@ -486,7 +486,7 @@ const productos = [
     nombre: "Solares",
     descripcion: "Pendientes de diseño inspirado en el dorado sol.",
     precio: "10€",
-    imagen: "imagenes/pendientes/solares.jpg"
+    imagen: "imagenes/pendientes/solares.JPG"
 },
 {
     categoria: "pendientes",
@@ -510,7 +510,7 @@ const productos = [
     nombre: "Star",
     descripcion: "Aros con cristales insertados y colgante con flor de cristal.",
     precio: "9€",
-    imagen: "imagenes/pendientes/star.jpg"
+    imagen: "imagenes/pendientes/star.JPG"
 },
 {
     categoria: "pendientes",
