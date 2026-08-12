@@ -346,6 +346,14 @@ const productos = [
 },
 {
     categoria: "pendientes",
+    id: "marmol",
+    nombre: "Mármol",
+    descripcion: "Aros dorados de acero inoxidable de 14 mm con piedra natural redonda en tono blanco y negro. También disponible en rosa y azul.",
+    precio: "10€",
+    imagen: "imagenes/pendientes/marmol.jpg"
+},
+{
+    categoria: "pendientes",
     id: "media-luna",
     nombre: "Media Luna",
     descripcion: "Aros con cristales insertados y original colgante de media luna.",
@@ -364,9 +372,17 @@ const productos = [
     categoria: "pendientes",
     id: "nebulosa",
     nombre: "Nebulosa",
-    descripcion: "Aros dorados de acero inoxidable de 14 mm con piedra natural redonda en tono azul. También disponible en Ocaso y Mármol.",
+    descripcion: "Aros dorados de acero inoxidable de 14 mm con piedra natural redonda en tono rosa. También disponible en rosa y blanco/negro.",
     precio: "9€",
     imagen: "imagenes/pendientes/nebulosa.jpg"
+},
+{
+    categoria: "pendientes",
+    id: "ocaso",
+    nombre: "Ocaso",
+    descripcion: "Aros dorados de acero inoxidable de 14 mm con piedra natural redonda en tono rosa. También disponible en azul y blanco/negro.",
+    precio: "9€",
+    imagen: "imagenes/pendientes/ocaso.jpg"
 },
 {
     categoria: "pendientes",
