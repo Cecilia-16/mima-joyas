@@ -131,7 +131,7 @@ function comprar(){
         try {
 
             const respuesta = await fetch(
-                "https://formsubmit.co/ajax/ceciliamingocarreras16@gmail.com",
+                "https://formsubmit.co/ajax/anamcarreras@gmail.com",
                 {
                     method: "POST",
                     headers: {
