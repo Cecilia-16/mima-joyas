@@ -38,13 +38,14 @@ if (carrito.length === 0) {
 
     });
 
-    html += `
+   html += `
     <h2>Total: ${total.toFixed(2)} €</h2>
 
-    <button id="button-comprar" onclick="comprar()">
+    <button class="boton-comprar" onclick="comprar()">
         Comprar
     </button>
-     `;
+ `;
+
 
     contenedor.innerHTML = html;
 

@@ -96,6 +96,7 @@ p{
     font-size:22px;
     font-weight:bold;
 }
+
 .productos{
     display:grid;
     grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
@@ -335,4 +336,57 @@ p{
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
+}
+/* Botón Comprar */
+
+.boton-comprar {
+    display: block;
+    width: 220px;
+    margin: 15px 0 30px 0;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 25px;
+    background: #000;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.boton-comprar:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
+}
+
+.precio-boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 8px 0 15px 0;
+}
+
+.precio-boton .precio {
+    margin: 0;
+}
+
+.boton-anadir {
+    position: relative;
+    display: block;
+    width: 138px;
+    margin: -48px auto 20px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    background: #000;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton-anadir:hover {
+    transform: scale(1.05);
+    opacity: 0.85;
 }

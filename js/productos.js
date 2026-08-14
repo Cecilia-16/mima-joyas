@@ -642,6 +642,22 @@ const productos = [
 },
 {
     categoria: "collares",
+    id: "griega-blanca",
+    nombre: "Cadena griega blanca",
+    descripcion: "Ideal para este verano, con eslabones rectangulares dorados lacados en color blanco. También disponible para pulsera.",
+    precio: "11€",
+    imagen: "imagenes/collares/griega-blanca.jpg"
+},
+{
+    categoria: "collares",
+    id: "griega-naranja",
+    nombre: "Cadena griega naranja",
+    descripcion: "Preciosa cadena para este verano, formada por eslabones rectangulares dorados lacados en naranja. También disponible para pulsera.",
+    precio: "11€",
+    imagen: "imagenes/collares/griega-naranja.jpg"
+},
+{
+    categoria: "collares",
     id: "cielo",
     nombre: "Cielo",
     descripcion: "Fina cadena plateada de acero inoxidable con un colgante redondo decorado con luna y estrellas de cristales de colores.",
@@ -748,8 +764,8 @@ const productos = [
     categoria: "collares",
     id: "love",
     nombre: "Love",
-    descripcion: "Divertido collar con cuentas de colores pastel y corazones dorados. También disponible en pulsera.",
-    precio: "11€",
+    descripcion: "AGOTADO",
+    precio: "",
     imagen: "imagenes/collares/love.jpg"
 },
 {
@@ -954,6 +970,22 @@ const productos = [
 },
 {
     categoria: "pulseras",
+    id: "griega-blanca",
+    nombre: "Griega blanca",
+    descripcion: "Ideal para este verano, con eslabones rectangulares dorados lacados en color blanco. También disponible en cadena.",
+    precio: "?€",
+    imagen: "imagenes/collares/griega-blanca.jpg"
+},
+{
+    categoria: "pulseras",
+    id: "griega-naranja",
+    nombre: "Griega naranja",
+    descripcion: "Preciosa pulsera para este verano, formada por eslabones rectangulares dorados lacados en naranja. También disponible en cadena.",
+    precio: "?€",
+    imagen: "imagenes/collares/griega-naranja.jpg"
+},
+{
+    categoria: "pulseras",
     id: "fibula",
     nombre: "Fíbula",
     descripcion: "Pulsera con broche ovalado ornamentado con cristales blancos y cadena de perlas blancas.",
@@ -972,8 +1004,8 @@ const productos = [
     categoria: "pulseras",
     id: "love",
     nombre: "Love",
-    descripcion: "Pulsera con cuentas de colores pastel y corazones dorados. A juego con el collar Love.",
-    precio: "7€",
+    descripcion: "AGOTADO",
+    precio: "",
     imagen: "imagenes/pulseras/love.jpg"
 },
 {
@@ -999,6 +1031,22 @@ const productos = [
     descripcion: "Elegante pulsera dorada con perlas y estrellas en acero inoxidable.",
     precio: "7€",
     imagen: "imagenes/pulseras/perlas-y-estrellas-dorada.jpg"
+},
+{
+    categoria: "pulseras",
+    id: "rayons-du-solei",
+    nombre: "Rayons du solei",
+    descripcion: "Preciosa pulsera en acero inoxidable con cuentas de colores y doradas alternas. También disponible en collar.",
+    precio: "?€",
+    imagen: "imagenes/collares/rayons-du-solei.jpg"
+},
+{
+    categoria: "pulseras",
+    id: "viso",
+    nombre: "Viso",
+    descripcion: "Una pulsera llena de color para este verano, en acero inoxidable lacado en colores claros. También disponible en collar.",
+    precio: "?€",
+    imagen: "imagenes/collares/viso.jpg"
 },
 {
     categoria: "pulseras",
