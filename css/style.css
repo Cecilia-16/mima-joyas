@@ -624,8 +624,8 @@ p{
 
     /* ELIMINAR DEL CARRITO */
     .boton-eliminar {
-        margin: -46px 0 20px auto;
-        font-size: 12px;
-        padding: 7px 11px;
+       margin: -46px auto 20px auto;
+       font-size: 12px;
+       padding: 7px 11px;
     }
 }
