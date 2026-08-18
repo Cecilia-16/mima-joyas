@@ -58,7 +58,7 @@ const productos = [
 },
 {
     categoria: "pendientes",
-    id: "blau-mari",
+    id: "blau-mari-pendientes",
     nombre: "Blau Marí",
     descripcion: "Aros dorados en acero inoxidable con precioso colgante en forma de estrella de cristal azul marino.",
     precio: "10€",
@@ -626,7 +626,7 @@ const productos = [
 },
 {
     categoria: "collares",
-    id: "blau-mari",
+    id: "blau-mari-collares",
     nombre: "Blau Marí",
     descripcion: "Cadena de acero inoxidable con estrellas doradas y azul marino alternas. A juego con los pendientes Blau Marí o Tiny.",
     precio: "14€",
