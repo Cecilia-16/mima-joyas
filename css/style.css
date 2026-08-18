@@ -635,3 +635,27 @@ p{
 nav h2 {
       margin-left: 25px;
     }
+    .carrusel-categoria {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 0 15px 0;
+    scroll-behavior: smooth;
+}
+
+.carrusel-categoria img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    flex: 0 0 auto;
+    border-radius: 8px;
+}
+
+.carrusel-categoria::-webkit-scrollbar {
+    height: 8px;
+}
+
+.carrusel-categoria::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
