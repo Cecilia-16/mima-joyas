@@ -29,10 +29,10 @@ if (carrito.length === 0) {
 
                 <p class="precio">${producto.precio}</p>
 
-                <button onclick="eliminar(${indice})">
-                    Eliminar
+                <button class="boton-eliminar" onclick="eliminar(${indice})">
+                  Eliminar
                 </button>
-
+ 
             </div>
         `;
 
