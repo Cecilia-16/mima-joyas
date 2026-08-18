@@ -443,14 +443,18 @@ p{
 
     /* MENÚ */
     nav {
-        position: static;
-        width: 100%;
-        height: auto;
-        padding-top: 0;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-        display: flex;
-        overflow-x: auto;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: auto;
+       padding-top: 0;
+       background: white;
+       border-right: none;
+       border-bottom: 1px solid #ddd;
+       display: flex;
+       overflow-x: auto;
+       z-index: 1000;
     }
 
     nav a {
@@ -465,7 +469,7 @@ p{
     /* CONTENIDO */
     main {
         margin-left: 0;
-        padding: 20px 15px;
+        padding: 75px 15px 20px;
     }
 
     section {
