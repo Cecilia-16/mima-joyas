@@ -628,6 +628,9 @@ p{
        font-size: 12px;
        padding: 7px 11px;
     }
+    nav h2 {
+      margin-top: -10px;
+    }
 }
 nav h2 {
       margin-left: 25px;
