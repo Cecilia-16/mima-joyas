@@ -431,6 +431,21 @@ p{
     transform: scale(1.05);
     opacity: 0.85;
 }
+.titulo-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.titulo-logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.titulo-logo h1 {
+    margin: 0;
+}
 /* =========================
    VERSION PARA MOVIL
    ========================= */
@@ -630,6 +645,18 @@ p{
     }
     nav h2 {
       margin-top: 5px;
+    }
+    .titulo-logo {
+      gap: 10px;
+    }
+
+    .titulo-logo img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .titulo-logo h1 {
+      font-size: 28px;
     }
 }
 nav h2 {
