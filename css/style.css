@@ -435,17 +435,26 @@ p{
     display: flex;
     align-items: center;
     gap: 15px;
+    margin-top: 30px;
 }
 
 .titulo-logo img {
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: contain;
+  margin-left: 80px;
+  position: relative;
+  top: 25px;
 }
 
 .titulo-logo h1 {
     margin: 0;
 }
+
+#inicio p {
+    margin-top: -55px;
+}
+
 /* =========================
    VERSION PARA MOVIL
    ========================= */
@@ -648,6 +657,9 @@ p{
     }
     .titulo-logo {
       gap: 10px;
+      margin-top: 40px;
+      margin-left: 25px;
+    }
     }
 
     .titulo-logo img {
