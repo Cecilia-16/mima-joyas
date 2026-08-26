@@ -1455,10 +1455,10 @@ const productos = [
     nombre: "Rayons du solei",
     descripcion: "Preciosa pulsera en acero inoxidable con cuentas de colores y doradas alternas. También disponible en collar.",
     precio: "?€",
-    imagen: "imagenes/collares/rayons-du-solei.jpg",
+    imagen: "imagenes/collares/rayons-du-soleil.jpg",
     imagenes: [
-        "imagenes/collares/rayons-du-solei.jpg",
-        "imagenes/collares/rayons-du-solei-2.jpg"
+        "imagenes/collares/rayons-du-soleil.jpg",
+        "imagenes/collares/rayons-du-soleil-2.jpg"
     ]
 },
 
