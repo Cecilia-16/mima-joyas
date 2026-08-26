@@ -687,7 +687,7 @@ nav h2 {
     height: 80px !important;
     object-fit: contain;
     position: relative;
-    top: -0px;
+    top: 10px;
     margin-left: 50px;
 }
 
