@@ -460,7 +460,27 @@ nav h2 {
 #contenido-carrito {
     display: block;
 }
+.galeria-producto {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 5px;
+}
 
+.miniatura-producto {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    flex: 0 0 auto;
+}
+
+.miniatura-producto:hover {
+    opacity: 0.8;
+}
 @media (min-width: 701px) {
     .productos-carrito {
         display: grid;

@@ -11,37 +11,60 @@ if (!producto) {
 
 } else {
 
+    // Si el producto tiene varias imágenes, usamos todas.
+    // Si no tiene "imagenes", usamos solamente la imagen principal.
+    const imagenesProducto = producto.imagenes || [producto.imagen];
+
     contenedor.innerHTML = `
         <div class="detalle">
 
             <div class="detalle-imagen">
 
-              <img src="${producto.imagen}" alt="${producto.nombre}">
+                <img
+                    id="imagen-principal"
+                    src="${imagenesProducto[0]}"
+                    alt="${producto.nombre}"
+                >
 
-              <button class="boton-atras" onclick="history.back()" title="Volver">
-                 ←
-              </button>
+                <div class="galeria-producto">
+                    ${imagenesProducto.map((imagen, indice) => `
+                        <img
+                            src="${imagen}"
+                            alt="${producto.nombre} ${indice + 1}"
+                            class="miniatura-producto"
+                            onclick="cambiarImagen('${imagen}')"
+                        >
+                    `).join("")}
+                </div>
+
+                <button class="boton-atras" onclick="history.back()" title="Volver">
+                    ←
+                </button>
 
             </div>
 
             <div class="detalle-info">
 
-             <h1>${producto.nombre}</h1>
+                <h1>${producto.nombre}</h1>
 
-             <p>${producto.descripcion}</p>
+                <p>${producto.descripcion}</p>
 
-             <h2>${producto.precio}</h2>
+                <h2>${producto.precio}</h2>
 
-             <button class="comprar" id="agregar-carrito">
-               🛒 Añadir al carrito
-             </button>
+                <button class="comprar" id="agregar-carrito">
+                    🛒 Añadir al carrito
+                </button>
 
             </div>
 
         </div>
     `;
-
 }
+
+function cambiarImagen(imagen) {
+    document.getElementById("imagen-principal").src = imagen;
+}
+
 const boton = document.getElementById("agregar-carrito");
 
 if (boton) {
