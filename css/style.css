@@ -683,10 +683,13 @@ nav h2 {
       width: 85px !important;
       height: 85px !important;
       object-fit: contain;
+      position: relative;
+      top: -15px;
     }
 
     .titulo-logo h1 {
       font-size: 28px;
+      white-space: nowrap;
     }
 
     nav h2 {
