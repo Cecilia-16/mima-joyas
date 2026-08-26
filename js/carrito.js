@@ -10,41 +10,56 @@ if (carrito.length === 0) {
 
     let html = "";
 
-    let total = 0;
+let total = 0;
 
-    carrito.forEach((producto, indice) => {
+html += `<div class="productos-carrito">`;
 
-        const precio = parseFloat(producto.precio.replace("€", "").replace(",", "."));
+carrito.forEach((producto, indice) => {
 
-        total += precio;
+    const precio = parseFloat(producto.precio.replace("€", "").replace(",", "."));
+    total += precio;
 
-        html += `
-            <div class="producto">
+    html += `
+        <div class="producto">
 
-                <img src="${producto.imagen}" alt="${producto.nombre}">
+            <img src="${producto.imagen}" alt="${producto.nombre}">
 
-                <h3>${producto.nombre}</h3>
+            <h3>${producto.nombre}</h3>
 
-                <p>${producto.descripcion}</p>
+            <p>${producto.descripcion}</p>
 
-                <p class="precio">${producto.precio}</p>
+            <p class="precio">${producto.precio}</p>
 
-                <button class="boton-eliminar" onclick="eliminar(${indice})">
-                  Eliminar
-                </button>
- 
-            </div>
-        `;
+            <button class="boton-eliminar" onclick="eliminar(${indice})">
+                Eliminar
+            </button>
 
-    });
+        </div>
+    `;
 
-   html += `
+});
+
+html += `</div>`;
+
+let gastosEnvio = total >= 30 ? 0 : 5.80;
+let totalFinal = total + gastosEnvio;
+
+html += `
     <h2>Total: ${total.toFixed(2)} €</h2>
+
+    <p class="gastos-envio">
+        ${gastosEnvio === 0
+            ? "Gastos de envío: GRATIS"
+            : `Gastos de envío: ${gastosEnvio.toFixed(2)} €`
+        }
+    </p>
+
+    <h2>Total final: ${totalFinal.toFixed(2)} €</h2>
 
     <button class="boton-comprar" onclick="comprar()">
         Comprar
     </button>
- `;
+`;
 
 
     contenedor.innerHTML = html;
