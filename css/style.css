@@ -675,26 +675,30 @@ nav h2 {
       margin-top: 5px;
     }
     .titulo-logo {
-      gap: 10px;
-      margin-top: 40px;
-      margin-left: 25px;
-    }
-    .titulo-logo img {
-      width: 85px !important;
-      height: 85px !important;
-      object-fit: contain;
-      position: relative;
-      top: -15px;
-    }
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
 
-    .titulo-logo h1 {
-      font-size: 28px;
-      white-space: nowrap;
-    }
+.titulo-logo img {
+    width: 60px !important;
+    height: 60px !important;
+    object-fit: contain;
+    position: relative;
+    top: -15px;
+    margin-left: 25px;
+}
 
-    nav h2 {
-      margin-left: 25px;
-    }
+.titulo-logo h1 {
+    font-size: 28px;
+    white-space: nowrap;
+}
+
+#inicio p {
+    margin-top: 10px;
+}    
     .carrusel-categoria {
      display: flex;
      gap: 15px;
