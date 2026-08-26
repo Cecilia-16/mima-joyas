@@ -472,6 +472,29 @@ nav h2 {
     .productos-carrito .producto {
         width: 280px;
     }
+    .carrusel-categoria {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 0 15px 0;
+    scroll-behavior: smooth;
+}
+
+.carrusel-categoria a {
+    flex: 0 0 180px;
+    width: 180px;
+    height: 180px;
+}
+
+.carrusel-categoria img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
 }
 
 /* =========================
@@ -735,4 +758,27 @@ nav h2 {
     main > h1 {
       margin-top: 45px;
     }
+    .carrusel-categoria {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 0 15px 0;
+    scroll-behavior: smooth;
+}
+
+.carrusel-categoria a {
+    flex: 0 0 180px;
+    width: 180px;
+    height: 180px;
+}
+
+.carrusel-categoria img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
 }    
