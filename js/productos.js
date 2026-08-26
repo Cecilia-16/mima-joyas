@@ -177,7 +177,7 @@ const productos = [
     categoria: "pendientes",
     id: "dalia",
     nombre: "Dalia",
-    descripcion: "Materiales: latón chapado y acrílico. Disponible en rosa azul y naranja.",
+    descripcion: "Materiales: latón chapado y acrílico. Disponible en rosa, azul y naranja.",
     precio: "9€",
     imagen: "imagenes/pendientes/dalia.jpg",
     imagenes: [

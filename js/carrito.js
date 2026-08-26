@@ -101,9 +101,9 @@ function comprar(){
                    type="text" 
                    id="color" 
                    name="color"
-                   placeholder="Indica el color que quieres"
+                   placeholder="Indica el nombre y color de la joya"
                 >
-                
+
                 <label>Dirección</label>
                 <input type="text" id="calle" name="calle" placeholder="Calle" required>
 
