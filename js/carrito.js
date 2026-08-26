@@ -96,6 +96,14 @@ function comprar(){
                 <label>Correo electrónico</label>
                 <input type="email" id="correo" name="email" required>
 
+                <label>Color elegido (si procede)</label>
+                <input
+                   type="text" 
+                   id="color" 
+                   name="color"
+                   placeholder="Indica el color que quieres"
+                >
+                
                 <label>Dirección</label>
                 <input type="text" id="calle" name="calle" placeholder="Calle" required>
 

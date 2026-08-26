@@ -106,9 +106,14 @@ const productos = [
     categoria: "pendientes",
     id: "bullion",
     nombre: "Bullion",
-    descripcion: "Pendientes alegres y vistosos para animar los conjuntos este verano. En acero inoxidable y zinc.Disponible en varios colores.",
+    descripcion: "Pendientes alegres y vistosos para animar los conjuntos este verano. En acero inoxidable y zinc. Disponible en azul, rosa y naranja.",
     precio: "9€",
-    imagen: "imagenes/pendientes/bullion.jpg"
+    imagen: "imagenes/pendientes/bullion.jpg",
+    imagenes: [
+        "imagenes/pendientes/bullion.jpg",
+        "imagenes/pendientes/bullion.2.jpg",
+        "imagenes/pendientes/bullion.3.jpg"
+    ]
 },
 
 {
@@ -172,9 +177,15 @@ const productos = [
     categoria: "pendientes",
     id: "dalia",
     nombre: "Dalia",
-    descripcion: "Materiales: latón chapado y acrílico. Disponible en varios colores.",
+    descripcion: "Materiales: latón chapado y acrílico. Disponible en rosa azul y naranja.",
     precio: "9€",
-    imagen: "imagenes/pendientes/dalia.jpg"
+    imagen: "imagenes/pendientes/dalia.jpg",
+    imagenes: [
+        "imagenes/pendientes/dalia.jpg",
+        "imagenes/pendientes/dalia.2.jpg",
+        "imagenes/pendientes/dalia.3.jpg",
+        "imagenes/pendientes/dalia.4.JPG"
+    ]
 },
 
 {
