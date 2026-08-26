@@ -732,4 +732,7 @@ nav h2 {
     .productos-carrito .producto {
       width: 100%;
     }
+    main > h1 {
+      margin-top: 45px;
+    }
 }    
