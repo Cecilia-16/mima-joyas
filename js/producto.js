@@ -51,9 +51,11 @@ if (!producto) {
 
                 <h2>${producto.precio}</h2>
 
-                <button class="comprar" id="agregar-carrito">
-                    🛒 Añadir al carrito
-                </button>
+                ${producto.descripcion === "AGOTADO" ? "" : `
+                    <button class="comprar" id="agregar-carrito">
+                        🛒 Añadir al carrito
+                    </button>
+                `}
 
             </div>
 
