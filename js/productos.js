@@ -227,8 +227,8 @@ const productos = [
     categoria: "pendientes",
     id: "espejo",
     nombre: "Espejo",
-    descripcion: "Agotado",
-    precio: "7€",
+    descripcion: "AGOTADO",
+    precio: "",
     imagen: "imagenes/pendientes/espejo.JPG"
 },
 
@@ -714,8 +714,8 @@ const productos = [
     categoria: "pendientes",
     id: "talofita",
     nombre: "Talofita",
-    descripcion: "Pendientes elegantes y veraniegos con enganche aguamarina de acero inoxidable y colgante de inspiración marina en cobre.",
-    precio: "10€",
+    descripcion: "AGOTADO",
+    precio: "",
     imagen: "imagenes/pendientes/talofita.jpg",
     imagenes: [
         "imagenes/pendientes/talofita.jpg",
@@ -740,8 +740,8 @@ const productos = [
     categoria: "pendientes",
     id: "turquesa",
     nombre: "Turquesa",
-    descripcion: "Alegres pendientes con enganche azul turquesa de acero inoxidable y colgante redondo dorado de zinc.",
-    precio: "10€",
+    descripcion: "AGOTADO",
+    precio: "",
     imagen: "imagenes/pendientes/turquesa.jpg",
     imagenes: [
         "imagenes/pendientes/turquesa.jpg",
