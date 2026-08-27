@@ -243,7 +243,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "estrellas",
+    id: "estrellas-pendientes",
     nombre: "Estrellas",
     descripcion: "Materiales: Acero inoxidable, aro de 10mm de diámetro. Disponible en varios colores.",
     precio: "7€",
@@ -969,7 +969,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "estrellas",
+    id: "estrellas-collar",
     nombre: "Estrellas",
     descripcion: "Cadena dorada intercalada con pequeñas cuentas doradas en acero inoxidable y colgantes de estrellas en varios colores.",
     precio: "10€",
