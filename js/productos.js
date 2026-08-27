@@ -1449,9 +1449,9 @@ const productos = [
 
 {
     categoria: "pulseras",
-    id: "perlas-y-estrellas",
-    nombre: "Perlas y Estrellas",
-    descripcion: "Elegante pulsera dorada con perlas y estrellas en acero inoxidable.",
+    id: "perlas-y-estrellas-dorada",
+    nombre: "Perlas y estrellas dorada",
+    descripcion: "Traemos de nuevo esta preciosa y elegante pulsera, ahora en tono dorado.",
     precio: "7€",
     imagen: "imagenes/pulseras/perlas-y-estrellas-dorada.jpg",
     imagenes: [
