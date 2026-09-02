@@ -559,7 +559,7 @@ section h2 a:hover {
        width: 100%;
        height: auto;
        padding-top: 0;
-       padding-left: 10px;
+       padding-left: 0px;
        background: rgb(252, 236, 215);
        border-right: none;
        border-bottom: #ddd;
