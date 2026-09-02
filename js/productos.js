@@ -1381,7 +1381,7 @@ const productos = [
     id: "griega-blanca",
     nombre: "Griega blanca",
     descripcion: "Ideal para este verano, con eslabones rectangulares dorados lacados en color blanco. También disponible en cadena.",
-    precio: "?€",
+    precio: "7,5€",
     imagen: "imagenes/collares/griega-blanca.jpg",
     imagenes: [
         "imagenes/collares/griega-blanca.jpg",
@@ -1394,7 +1394,7 @@ const productos = [
     id: "griega-naranja",
     nombre: "Griega naranja",
     descripcion: "Preciosa pulsera para este verano, formada por eslabones rectangulares dorados lacados en naranja. También disponible en cadena.",
-    precio: "?€",
+    precio: "7,5€",
     imagen: "imagenes/collares/griega-naranja.jpg",
     imagenes: [
         "imagenes/collares/griega-naranja.jpg",
@@ -1465,7 +1465,7 @@ const productos = [
     id: "rayons-du-solei",
     nombre: "Rayons du solei",
     descripcion: "Preciosa pulsera en acero inoxidable con cuentas de colores y doradas alternas. También disponible en collar.",
-    precio: "?€",
+    precio: "7,5€",
     imagen: "imagenes/collares/rayons-du-soleil.jpg",
     imagenes: [
         "imagenes/collares/rayons-du-soleil.jpg",
@@ -1478,7 +1478,7 @@ const productos = [
     id: "viso",
     nombre: "Viso",
     descripcion: "Una pulsera llena de color para este verano, en acero inoxidable lacado en colores claros. También disponible en collar.",
-    precio: "?€",
+    precio: "7,5€",
     imagen: "imagenes/collares/viso.jpg"
 },
 
