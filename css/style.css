@@ -596,6 +596,9 @@ section h2 a:hover {
        margin-bottom: 0;
        font-size: 18px;
     } 
+    .logo-menu img {
+       width: 70px;
+    }
 
     /* PRODUCTOS */
     .productos {
