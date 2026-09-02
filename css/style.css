@@ -569,12 +569,12 @@ section h2 a:hover {
     }
 
     nav a {
-        flex: 0 0 auto;
-        padding: 14px 16px;
-        font-size: 14px;
-        border-bottom: none;
-        border-right: 1px solid #e5e5e5;
-        white-space: nowrap;
+       flex: 0 0 auto;
+       padding: 25px 16px 14px 16px;
+       font-size: 14px;
+       border-bottom: none;
+       border-right: 1px solid #e5e5e5;
+       white-space: nowrap;
     }
 
     /* CONTENIDO */
