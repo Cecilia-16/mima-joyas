@@ -1,9 +1,17 @@
 const novedades = [
-    "bullion",
-    "dalia",
-    "essence",
-    "fleur",
-    "sami"
+    "caballito-de-mar",
+    "caballito-de-mar-collar",
+    "corazon-punteado",
+    "disco",
+    "diseo",
+    "erregina",
+    "estrellitas-de-colores",
+    "feier",
+    "florenzada",
+    "fluor-circulo",
+    "fluor-corazon",
+    "fluor-rectangulo",
+    "infinity-rayons-du-soleil"
 ];
 
 const contenedorNovedades = document.getElementById("lista-novedades");
