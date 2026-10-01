@@ -2,6 +2,123 @@ const productos = [
 
 {
     categoria: "pendientes",
+    id: "caballito-de-mar",
+    nombre: "Caballito de mar",
+    descripcion: "Aros dorados en acero inoxidable con alegres colgantes de caballitos de mar de colores (se pueden elegir los colores según disponibilidad).",
+    precio: "10€",
+    imagen: "imagenes/pendientes/caballito-de-mar.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "corazon-punteado",
+    nombre: "Corazón Punteado",
+    descripcion: "Aro dorado en acero inoxidable y un bonito corazón dorado con cristalitos naranjas.",
+    precio: "10€",
+    imagen: "imagenes/pendientes/corazon-punteado.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "disco",
+    nombre: "Disco",
+    descripcion: "Gancho dorado en acero inoxidable y colgante redondo dorado con cristal del color que más te guste (según disponibilidad).",
+    precio: "9€",
+    imagen: "imagenes/pendientes/disco.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "diseo",
+    nombre: "Diseo",
+    descripcion: "Delicados pendientes formados por un enganche con forma de pequeña gota de cristal blanco, junto con un colgante de estrellita azul (también disponible la estrella en color verde).",
+    precio: "11€",
+    imagen: "imagenes/pendientes/diseo.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "erregina",
+    nombre: "Erregina",
+    descripcion: "Estos pendientes son una elegante combinación entre un enganche de cristal rosa claro con un colgante en forma de flor lleno de cristales blancos.",
+    precio: "12€",
+    imagen: "imagenes/pendientes/erregina.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "estrellitas-de-colores",
+    nombre: "Estrellitas de colores",
+    descripcion: "Pendientes de aro dorados en acero inoxidable con estrellas de tus colores favoritos también en acero inoxidable (según disponibilidad).",
+    precio: "10€",
+    imagen: "imagenes/pendientes/estrellitas-de-colores.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "feier",
+    nombre: "Feier",
+    descripcion: "Otra versión con nuestro vistoso enganche con forma de rombo dorado en acero inoxidable, esta vez acompañado por un colgante en forma de gota de relieve irregular en tono blanco. Es posible hacerlos en otro color (según disponibilidad).",
+    precio: "12€",
+    imagen: "imagenes/pendientes/feier.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "florenzada",
+    nombre: "Florenzada",
+    descripcion: "Aro dorado en acero inoxidable con colgante de cruz de estilo florenzada, también en acero inoxidable dorado.",
+    precio: "10€",
+    imagen: "imagenes/pendientes/florenzada.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "glavra",
+    nombre: "Glavra",
+    descripcion: "Gancho dorado en acero inoxidable y flor dorada con relieve de latón con un pequeño brillo blanco central.",
+    precio: "10€",
+    imagen: "imagenes/pendientes/glavra.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "kada",
+    nombre: "Kada",
+    descripcion: "Formados por enganche redondo labrado en acero inoxidable dorado y unas elegantes flores de cristales blancos con líneas doradas en latón.",
+    precio: "11€",
+    imagen: "imagenes/pendientes/kada.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "mango",
+    nombre: "Mango",
+    descripcion: "Pendientes grandes y muy vistosos. Con enganche en forma de rombo en acero inoxidable dorado y un colgante en tono naranja, muy veraniegos.",
+    precio: "10€",
+    imagen: "imagenes/pendientes/mango.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "nenufar",
+    nombre: "Nenúfar",
+    descripcion: "Pequeño enganche con forma de bolita dorada en acero inoxidable con un colgante de flor voluminosa dorada en latón.",
+    precio: "11€",
+    imagen: "imagenes/pendientes/nenufar.jpg"
+},
+
+{
+    categoria: "pendientes",
+    id: "summer",
+    nombre: "Summer",
+    descripcion: "Enganche con forma de pequeña bolita dorada en acero inoxidable junto con una cadenita formada por eslabones de colores.",
+    precio: "10€",
+    imagen: "imagenes/pendientes/summer.jpg"
+},
+///////////////aqui termina novedades//////////
+{
+    categoria: "pendientes",
     id: "agata",
     nombre: "Ágata",
     descripcion: "Aros dorados en acero inoxidable de 12 mm, con gotas en azul turquesa.",
@@ -774,6 +891,88 @@ const productos = [
         "imagenes/pendientes/wakame.2.jpg"
     ]
 },
+
+{
+    categoria: "collares",
+    id: "caballito-de-mar-collar",
+    nombre: "Caballito de mar",
+    descripcion: "Cadena dorada rizada con alegres colgantes de caballitos de mar de colores alternados con estrellitas doradas.",
+    precio: "12€",
+    imagen: "imagenes/collares/caballito-de-mar-collar.jpg"
+},
+
+{
+    categoria: "collares",
+    id: "fluor-circulo",
+    nombre: "Flúor círculo",
+    descripcion: "Perfectos para el verano. Cadena fina dorada en acero inoxidable con colgante flúor en forma de círculo. A elegir entre color amarillo, blanco o rosa (según disponibilidad).",
+    precio: "14€",
+    imagen: "imagenes/collares/fluor-circulo.jpg",
+},
+
+{
+    categoria: "collares",
+    id: "fluor-corazon",
+    nombre: "Flúor corazón",
+    descripcion: "Perfectos para el verano. Cadena fina dorada en acero inoxidable con colgante flúor en forma de corazón. A elegir entre color amarillo, blanco o rosa (según disponibilidad).",
+    precio: "14€",
+    imagen: "imagenes/collares/fluor-corazon.jpg",
+},
+
+{
+    categoria: "collares",
+    id: "fluor-rectangulo",
+    nombre: "Flúor rectángulo",
+    descripcion: "Perfectos para el verano. Cadena fina dorada en acero inoxidable con colgante flúor en forma de rectángulo. A elegir entre color amarillo, blanco o rosa (según disponibilidad).",
+    precio: "14€",
+    imagen: "imagenes/collares/fluor-rectangulo.jpg",
+},
+
+{
+    categoria: "collares",
+    id: "infinity-rayons-du-soleil",
+    nombre: "Infinity Rayons du Soleil",
+    descripcion: "Los colores del atardecer condensados en una gargantilla. Cadena de cuentas naranjas, azules y blancas, con un colgante central con forma de infinito. ¡Summer time!",
+    precio: "12€",
+    imagen: "imagenes/collares/infinity-rayons-du-soleil.jpg"
+},
+
+{
+    categoria: "collares",
+    id: "nenufar-collar",
+    nombre: "Nenúfar",
+    descripcion: "Cadena dorada de eslabones redondos junto con el colgante de una flor voluminosa dorada.",
+    precio: "12€",
+    imagen: "imagenes/collares/nenufar-collar.jpg"
+},
+
+{
+    categoria: "collares",
+    id: "pink-flower",
+    nombre: "Pink Flower",
+    descripcion: "Delicado collar formado por una cadena dorada de efecto rizado en acero inoxidable con una flor de cristales rosa fucsia seguido de una cadenita con una gota del mismo color rosa.",
+    precio: "13€",
+    imagen: "imagenes/collares/pink-flower.jpg"
+},
+
+{
+    categoria: "collares",
+    id: "schwarz",
+    nombre: "Schwarz",
+    descripcion: "Delicada cadena dorada en acero inoxidable con un colgante en forma de flor formada por cristales negros.",
+    precio: "12€",
+    imagen: "imagenes/collares/schwarz.jpg"
+},
+
+{
+    categoria: "collares",
+    id: "zafiro",
+    nombre: "Zafiro",
+    descripcion: "Fina cadena en acero inoxidable plateado con un colgante de cristal azul oscuro rodeado de pequeños cristalitos blancos.",
+    precio: "14€",
+    imagen: "imagenes/collares/zafiro.jpg"
+},
+
 {
     categoria: "collares",
     id: "aguamarina",
