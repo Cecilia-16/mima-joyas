@@ -599,11 +599,11 @@ section h2 a:hover {
         margin-left: 25px;
         margin-bottom: 0;
         font-size: 18px;
-        position: relative;
-        top: 8px;
     }
+
     .logo-menu img {
         width: 70px;
+        transform: translateY(15px);
     }
 
     /* PRODUCTOS */
