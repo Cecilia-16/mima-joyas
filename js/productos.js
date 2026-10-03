@@ -1217,10 +1217,6 @@ const productos = [
     descripcion: "Cadena de acero inoxidable dorado con cuentas de colores y colgante de nácar con la inicial en dorado.",
     precio: "12€",
     imagen: "imagenes/collares/initial.jpg",
-    imagenes: [
-        "imagenes/collares/initial.jpg",
-        "imagenes/collares/initial-2.jpg"
-    ]
 },
 
 {
@@ -1299,7 +1295,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "mariposas",
+    id: "mariposas-collar",
     nombre: "Mariposas",
     descripcion: "Cadena dorada de acero inoxidable formada por pequeñas mariposas.",
     precio: "12€",
@@ -1630,7 +1626,7 @@ const productos = [
 
 {
     categoria: "pulseras",
-    id: "mariposas",
+    id: "mariposas-pulsera",
     nombre: "Mariposas",
     descripcion: "Pulsera de acero inoxidable dorada formada por pequeñas mariposas.",
     precio: "8€",
