@@ -595,15 +595,14 @@ section h2 a:hover {
         margin-bottom: 10px;
     }
 
-    .logo-menu {
-        margin-left: 25px;
-        margin-bottom: 0;
+    .logo-menu { 
+        margin-left: 25px; 
+        margin-bottom: 0; 
         font-size: 18px;
-    }
-
-    .logo-menu img {
-        width: 70px;
-        transform: translateY(15px);
+    } 
+    
+    .logo-menu img { 
+        width: 70px; 
     }
 
     /* PRODUCTOS */
