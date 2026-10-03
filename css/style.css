@@ -833,7 +833,7 @@ section h2 a:hover {
     border-radius: 8px;
 }
 #buscador {
-    top: 60px;
+    top: 75px;
     right: 10px;
     left: 10px;
 }
@@ -843,7 +843,7 @@ section h2 a:hover {
 }
 
 #resultados-busqueda {
-    top: 120px;
+    top: 135px;
     right: 10px;
     left: 10px;
     width: auto;
