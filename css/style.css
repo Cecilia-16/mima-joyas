@@ -602,6 +602,8 @@ section h2 a:hover {
     } 
     .logo-menu img {
        width: 70px;
+       position: relative;
+       top: 8px;
     }
 
     /* PRODUCTOS */
