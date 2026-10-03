@@ -833,9 +833,16 @@ section h2 a:hover {
     border-radius: 8px;
 }
 #buscador {
-    top: 110px;
-    right: 10px;
+    display: none;
+    position: fixed;
+    top: 120px !important;
     left: 10px;
+    right: 10px;
+    z-index: 1100;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 #campo-busqueda {
@@ -843,10 +850,19 @@ section h2 a:hover {
 }
 
 #resultados-busqueda {
-    top: 170px;
-    right: 10px;
+    display: none;
+    position: fixed;
+    top: 175px !important;
     left: 10px;
+    right: 10px;
     width: auto;
+    max-height: 70vh;
+    overflow-y: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 1090;
+    padding: 15px;
 }
 }    
 #boton-buscar {
