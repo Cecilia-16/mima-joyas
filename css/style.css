@@ -600,7 +600,7 @@ section h2 a:hover {
         margin-bottom: 0; 
         font-size: 18px;
     } 
-    
+
     .logo-menu img { 
         width: 70px; 
     }
@@ -762,7 +762,7 @@ section h2 a:hover {
     height: 80px !important;
     object-fit: contain;
     position: relative;
-    top: 20px;
+    top: 30px;
     margin-left: 50px;
 }
 
