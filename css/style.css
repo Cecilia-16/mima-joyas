@@ -935,3 +935,42 @@ section h2 a:hover {
     margin: 0;
     font-size: 16px;
 }
+/* =========================
+   FAVORITOS
+   ========================= */
+
+.imagen-producto {
+    position: relative;
+}
+
+.boton-favorito {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: white;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.titulo-ficha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.boton-favorito-ficha {
+    background: none;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.boton-favorito-ficha.activo {
+    color: black;
+}
