@@ -128,7 +128,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "alegra",
+    id: "alegra-pendientes",
     nombre: "Alegra",
     descripcion: "Pendientes con delicadas hojas de cristal. Materiales: cobre y circonitas.",
     precio: "9€",
@@ -422,7 +422,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "girasol",
+    id: "girasol-pendientes",
     nombre: "Girasol",
     descripcion: "Pendientes con una flor de girasol en tonos dorados, ligeros y alegres, ideales para dar un toque de color a cualquier look.",
     precio: "12€",
@@ -519,7 +519,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "luna",
+    id: "luna-pendientes",
     nombre: "Luna",
     descripcion: "Pendientes de acero inoxidable con una delicada luna y pequeños detalles brillantes.",
     precio: "10€",
@@ -586,7 +586,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "media-luna",
+    id: "media-luna-pendientes",
     nombre: "Media Luna",
     descripcion: "Aros con cristales insertados y original colgante de media luna.",
     precio: "10€",
@@ -613,7 +613,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "ocaso",
+    id: "ocaso-pendientes",
     nombre: "Ocaso",
     descripcion: "Aros dorados de acero inoxidable de 14 mm con piedra natural redonda en tono rosa. También disponible en azul y blanco/negro.",
     precio: "9€",
@@ -657,7 +657,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "piscis",
+    id: "piscis-pendientes",
     nombre: "Piscis",
     descripcion: "Divertidos pendientes con pececillos de colores lacados, en aros o pegados a la oreja, ¡como más te gusten!",
     precio: "9€",
@@ -683,7 +683,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "primavera",
+    id: "primavera-pendientes",
     nombre: "Primavera",
     descripcion: "Aros con brillantes flores de cristal.",
     precio: "8€",
@@ -714,7 +714,7 @@ const productos = [
 
 {
     categoria: "pendientes",
-    id: "recuerdo",
+    id: "recuerdo-pendientes",
     nombre: "Recuerdo",
     descripcion: "Pendientes redondos con colgante estampado en flores.",
     precio: "10€",
@@ -988,7 +988,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "alegra",
+    id: "alegra-collar",
     nombre: "Alegra",
     descripcion: "Delicada cadena dorada en acero inoxidable con el colgante Alegra. A juego con los pendientes.",
     precio: "10€",
@@ -1075,7 +1075,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "griega-blanca",
+    id: "griega-blanca-collar",
     nombre: "Cadena griega blanca",
     descripcion: "Ideal para este verano, con eslabones rectangulares dorados lacados en color blanco. También disponible para pulsera.",
     precio: "11€",
@@ -1088,7 +1088,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "griega-naranja",
+    id: "griega-naranja-collar",
     nombre: "Cadena griega naranja",
     descripcion: "Preciosa cadena para este verano, formada por eslabones rectangulares dorados lacados en naranja. También disponible para pulsera.",
     precio: "11€",
@@ -1203,7 +1203,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "girasol",
+    id: "girasol-collar",
     nombre: "Girasol",
     descripcion: "Cadena de acero inoxidable con colgante de girasol decorado con cristales blancos. Materiales: acero inoxidable, latón y circonitas.",
     precio: "12€",
@@ -1247,7 +1247,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "love",
+    id: "love-collar",
     nombre: "Love",
     descripcion: "AGOTADO",
     precio: "",
@@ -1269,7 +1269,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "luna",
+    id: "luna-collar",
     nombre: "Luna",
     descripcion: "Cadena dorada de acero inoxidable con pequeñas bolitas y colgante en forma de luna con cristalitos blancos.",
     precio: "11€",
@@ -1308,7 +1308,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "media-luna",
+    id: "media-luna-collar",
     nombre: "Media Luna",
     descripcion: "Delicada cadena dorada de acero inoxidable con colgante de media luna. A juego con los pendientes.",
     precio: "12€",
@@ -1412,7 +1412,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "piscis",
+    id: "piscis-collares",
     nombre: "Piscis",
     descripcion: "Cadena de eslabones rectangulares de acero inoxidable dorado con colgantes de peces lacados de colores.",
     precio: "12€",
@@ -1438,7 +1438,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "primavera",
+    id: "primavera-collar",
     nombre: "Primavera",
     descripcion: "Cadena dorada de acero inoxidable con colgantes de flores con cristales blancos, a juego con los pendientes Primavera.",
     precio: "13€",
@@ -1460,7 +1460,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "recuerdo",
+    id: "recuerdo-collar",
     nombre: "Recuerdo",
     descripcion: "Cadena dorada de acero inoxidable con el colgante Recuerdo. A juego con los pendientes.",
     precio: "12€",
@@ -1547,7 +1547,7 @@ const productos = [
 
 {
     categoria: "collares",
-    id: "viso",
+    id: "viso-collar",
     nombre: "Viso",
     descripcion: "Cadena de acero inoxidable lacada en colores claros. También disponible en pulsera.",
     precio: "11€",
@@ -1573,7 +1573,7 @@ const productos = [
 
 {
     categoria: "pulseras",
-    id: "griega-blanca",
+    id: "griega-blanca-pulsera",
     nombre: "Griega blanca",
     descripcion: "Ideal para este verano, con eslabones rectangulares dorados lacados en color blanco. También disponible en cadena.",
     precio: "7,5€",
@@ -1586,7 +1586,7 @@ const productos = [
 
 {
     categoria: "pulseras",
-    id: "griega-naranja",
+    id: "griega-naranja-pulsera",
     nombre: "Griega naranja",
     descripcion: "Preciosa pulsera para este verano, formada por eslabones rectangulares dorados lacados en naranja. También disponible en cadena.",
     precio: "7,5€",
@@ -1617,7 +1617,7 @@ const productos = [
 
 {
     categoria: "pulseras",
-    id: "love",
+    id: "love-pulsera",
     nombre: "Love",
     descripcion: "AGOTADO",
     precio: "",
@@ -1635,7 +1635,7 @@ const productos = [
 
 {
     categoria: "pulseras",
-    id: "ocaso",
+    id: "ocaso-pulsera",
     nombre: "Ocaso",
     descripcion: "Pulsera de doble cadena de acero inoxidable con piedra Ocaso. También disponible con piedra Nebulosa o Mármol.",
     precio: "9€",
@@ -1670,7 +1670,7 @@ const productos = [
 
 {
     categoria: "pulseras",
-    id: "viso",
+    id: "viso-pulsera",
     nombre: "Viso",
     descripcion: "Una pulsera llena de color para este verano, en acero inoxidable lacado en colores claros. También disponible en collar.",
     precio: "7,5€",
