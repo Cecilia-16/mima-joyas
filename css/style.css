@@ -957,20 +957,37 @@ section h2 a:hover {
     z-index: 5;
 }
 
-.titulo-ficha {
+.boton-favorito-ficha {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-}
-
-.boton-favorito-ficha {
-    background: none;
+    justify-content: center;
+    gap: 8px;
+    width: 220px;
+    margin-top: 15px;
+    background: black;
+    color: white;
     border: none;
-    font-size: 32px;
+    padding: 15px 20px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 18px;
 }
 
-.boton-favorito-ficha.activo {
-    color: black;
+.boton-favorito-ficha:hover {
+    opacity: 0.9;
+}
+
+.corazon-ficha {
+    font-size: 22px;
+}
+
+.boton-favorito-ficha .corazon-ficha {
+    color: white;
+}
+
+.boton-favorito-ficha.favorito-activo .corazon-ficha {
+    color: red;
+}
+.imagen-producto {
+    position: relative;
 }

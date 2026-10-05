@@ -23,7 +23,7 @@ if (contenedor) {
 
           <button class="boton-favorito ${favorito ? "activo" : ""}" 
                   aria-label="Favorito">
-            ${favorito ? "♥" : "♡"}
+            ${favorito ? "❤" : "♡"}
           </button>
 
         </div>
@@ -51,7 +51,7 @@ if (contenedor) {
           producto.id
         );
 
-        botonFavorito.textContent = ahoraEsFavorito ? "♥" : "♡";
+        botonFavorito.textContent = ahoraEsFavorito ? "❤" : "♡";
         botonFavorito.classList.toggle("activo", ahoraEsFavorito);
 
       });

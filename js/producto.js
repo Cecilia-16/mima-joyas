@@ -56,18 +56,7 @@ if (!producto) {
 
             <div class="detalle-info">
 
-                <div class="titulo-ficha">
-
-                    <h1>${producto.nombre}</h1>
-
-                    <button
-                        id="favorito-ficha"
-                        class="boton-favorito-ficha ${favorito ? "activo" : ""}"
-                        aria-label="Favorito">
-                        ${favorito ? "♥" : "♡"}
-                    </button>
-
-                </div>
+                <h1>${producto.nombre}</h1>
 
                 <p>${producto.descripcion}</p>
 
@@ -84,6 +73,19 @@ if (!producto) {
                         </button>
                     `
                 }
+                        <button
+                            id="favorito-ficha"
+                            class="boton-favorito-ficha ${favorito ? "favorito-activo" : ""}">
+
+                            <span class="corazon-ficha">
+                                ${favorito ? "❤" : "♡"}
+                            </span>
+
+                            <span class="texto-favorito-ficha">
+                                ${favorito ? "Quitar de favoritos" : "Añadir a favoritos"}
+                            </span>
+
+                       </button>
 
             </div>
 
@@ -108,23 +110,28 @@ const botonFavoritoFicha =
 
 if (botonFavoritoFicha) {
 
-    botonFavoritoFicha.addEventListener("click", () => {
+botonFavoritoFicha.addEventListener("click", () => {
 
-        const ahoraEsFavorito =
-            cambiarFavorito(
-                producto.categoria,
-                producto.id
-            );
-
-        botonFavoritoFicha.textContent =
-            ahoraEsFavorito ? "♥" : "♡";
-
-        botonFavoritoFicha.classList.toggle(
-            "activo",
-            ahoraEsFavorito
+    const ahoraEsFavorito =
+        cambiarFavorito(
+            producto.categoria,
+            producto.id
         );
 
-    });
+    botonFavoritoFicha.querySelector(".corazon-ficha").textContent =
+        ahoraEsFavorito ? "❤" : "♡";
+
+    botonFavoritoFicha.querySelector(".texto-favorito-ficha").textContent =
+        ahoraEsFavorito
+        ? "Quitar de favoritos"
+        : "Añadir a favoritos";
+
+    botonFavoritoFicha.classList.toggle(
+        "favorito-activo",
+        ahoraEsFavorito
+    );
+
+});
 
 }
 
